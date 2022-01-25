@@ -1,0 +1,75 @@
+@media (min-width: 500px) {
+    #sec2,#sec3,#sec4 {
+        width: 33.333%;
+        float: auto;
+    }
+}
+
+* {
+    /* font-family: 'Lobster', cursive; */
+    background-image: conic-gradient(#029b9e, #075e03);
+    /* background-image: url(https://fat.gfycat.com/AbleTastyCirriped.mp4); */
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#sec2,#sec3,#sec4 {
+    width: 100%;
+    float: auto;
+}
+
+div {
+    border: black solid 2px;
+    margin: 2px;
+    padding: 5px;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    color: rgb(220, 20, 20); 
+    outline-color: black;
+    outline-width: 100px;
+    letter-spacing: 1px;
+    -webkit-text-stroke: yellow 1px;
+}
+
+.list {
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    margin: 0% 300px;
+}
+.input {
+    margin: 10px;
+}
+
+#cont {
+    font-family: cursive;
+}
+#comments {
+    background-color: -internal-light-dark rgb(255, 255, 255);
+    margin: auto;
+    padding: auto;
+    border-width: auto;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: inherit;
+    width: 75%;
+}
+input [type = "text"], #comments,#Name,#email{ background-color: rgb(250, 246, 246);}
+
+#img1 {
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+}
+#img2 {
+    width: auto; 
+    height: 30px;
+}
+#Main-Footer {
+    align-content: center;
+    border: black solid 2px;
+    margin: 2px;
+    padding: 5px;
+}
+
+
